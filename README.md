@@ -18,7 +18,8 @@ shallow-immutability-java/
 |-- src/
 |   |-- ShallowImmutableExample.java  # Example of shallow immutability
 |   |-- DeepImmutableExample.java     # Example of deep immutability
-|   |-- Main.java                     # Main file to test and run examples
+|   |-- ShallowImmuMain.java                     # Main file to test and run shallow immutability examples
+|   |-- DeepImmuMain.java                     # Main file to test and run deep immutability examples
 |
 |-- README.md                         # Project documentation
 |
@@ -59,13 +60,21 @@ Follow the steps below to run the examples and explore the concepts:
    javac src/*.java
    ```
 
-2. Run the main file:
+2. Run the main file to test shallow immutability:
 
    ```bash
-   java src.Main
+   cd src/
+   java ShallowImmuMain
+   ```
+   
+3. Run the main file to test Deep immutability:
+
+   ```bash
+   cd src/
+   java DeepImmuMain
    ```
 
-3. Observe the outputs for both shallow and deep immutability examples.
+4. Observe the outputs for both shallow and deep immutability examples.
 
 ### Example Output
 
